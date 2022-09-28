@@ -1,0 +1,515 @@
+.container {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2px;
+    font-style: normal;
+}
+
+.main {
+    margin-left: 3rem;
+}
+
+.header-desk {
+    display: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 6rem;
+    background: #F7F7F7;
+    width: 100vh;
+}
+
+.header__logo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header__item {
+    list-style: none;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+}
+
+
+.header__icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.sect-welcome {
+    height: fit-content;
+    width: 100vh;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+}
+
+.sect-welcome__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    color: #252B42;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.sect-welcome__desc {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #737373;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.sect-welcome__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-size: large;
+    padding: 1rem 2rem;
+    border-radius: 37px;
+    border: none;
+}
+
+.btn--active {
+    color: white;
+    background: #FFA62B;
+}
+
+.btn--outlined {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #00A0C1;
+    border: 1.5px solid #00A0C1;
+    background: white;
+}
+
+.sect-activity {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sect-activity__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4rem 4rem;
+    height: 10rem;
+    width: 20rem;
+    gap: 15px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+}
+
+.card__header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.card__image {
+    max-width: 30px;
+}
+
+.card__desc {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.sect-activity__title {
+    padding-left: 12rem;
+    padding-right: 12rem;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    color: #252B42;
+}
+
+.sect-activity__desc {
+    padding-left: 12rem;
+    padding-right: 12rem;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #737373;
+}
+
+.expert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: fit-content;
+    width: 100vh;
+    justify-content: center;
+    margin-bottom: 8rem;
+}
+
+.expert__title {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.expert__desc {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+}
+
+.expert__background {
+    position: absolute;
+    top: 511px;
+    height: 410px;
+    width: 100vh;
+    left: 0px;
+    right: 0px;
+    z-index: -999;
+    background: #16697A;
+}
+
+.expert__cover {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expert__filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.expert__image {}
+
+.expert__image-2 {
+    display: none;
+}
+
+.expert__play {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.clients {
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    gap: 2rem;
+    height: fit-content;
+    width: 100vh;
+}
+
+.clients__title {
+    padding-left: 11rem;
+    padding-right: 11rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.clients__desc {
+    padding-left: 12rem;
+    padding-right: 12rem;
+    text-align: center;
+}
+
+.clients-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.client-card {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    background-color: white;
+    border: 1px solid #DEDEDE;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+
+.client-card__ratings {
+    display: flex;
+}
+
+.client-card__profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.client-card__picture {
+    height: 4rem;
+}
+
+.client-card__names {
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFA62B;
+
+}
+
+.client-card__profession {
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 100vh;
+    justify-content: center;
+}
+
+.team__title {
+    padding-left: 16rem;
+    padding-right: 16rem;
+    text-align: center;
+}
+
+.team__desc {
+    padding-left: 14rem;
+    padding-right: 14rem;
+    text-align: center;
+}
+
+.team-cards {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.appointment {
+    position: relative;
+    display: flex;
+    width: 100vh;
+    justify-content: center;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/image/appoinment-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.appointment__sect {
+    padding: 4rem;
+}
+
+.appointment__title--small {
+    font-weight: 600;
+}
+
+.appointment__bg {
+    width: 100%;
+    position: absolute;
+    object-fit: contain;
+    align-items: center;
+    top: 0;
+    z-index: -999;
+}
+
+.appointment-form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 1rem;
+}
+
+.appointment-form__input {
+    height: 3rem;
+    border: 1px solid #BDBDBD
+}
+
+.appointment-form__select {
+    height: 3rem;
+    color: #BDBDBD;
+    border: 1px solid #BDBDBD
+}
+
+.button {
+    color: white;
+    background: #FFA62B;
+    border: none;
+    padding: 1rem 4rem;
+}
+
+.consult {
+
+    display: flex;
+    height: fit-content;
+    width: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.consult__sect {
+    padding: 0 13.1rem;
+}
+
+.footer {
+    background: #252B42;
+    display: flex;
+    width: 100vh;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-left: 3rem;
+}
+
+.footer__upper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 4rem;
+
+}
+
+.footer__company-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.footer__lower {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vh;
+    background: #16697A;
+}
+
+.info {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0;
+}
+
+.footer__section {
+    display: flex;
+    gap: 5rem;
+}
+
+.info__title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-bottom: 0.8rem;
+}
+
+.subscribe__input {
+    height: 2.5rem;
+    margin: 0;
+}
+
+.subscribe-sect {
+    background: white;
+    display: flex;
+    width: 12rem;
+
+}
+
+.subscribe__input {
+    border: none;
+}
